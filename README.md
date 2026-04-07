@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="img/logo.svg" width="100">
   <h1 align="center">Weeb Project</h1>
 </p>
 Weeb — Landing Page Deployment
