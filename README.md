@@ -50,3 +50,9 @@
 │   └── script.js       # Логіка меню та взаємодії
 ├── img/                # Оптимізовані графічні ресурси
 └── README.md
+```
+
+## 🔗 Live Demo
+Проєкт розгорнуто на **GitHub Pages**. Переглянути живу версію можна за посиланням:
+
+👉 **[Відкрити Weeb Project](https://shizukaloss.github.io/WEEB/)**
