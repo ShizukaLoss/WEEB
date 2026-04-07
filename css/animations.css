@@ -1,0 +1,84 @@
+.block-header__top,
+.block-header__text,
+.powerful__block-header,
+.customers__block-header,
+.speed__block-header,
+.testimonials__block-header,
+.testimonials__item,
+.events__header,
+.companies__title {
+   opacity: 0;
+   transform: translate(0px, 10%);
+   transition: all 0.1s;
+}
+.--animate .block-header__top,
+.--animate .block-header__text,
+.--animate .powerful__block-header,
+.--animate .customers__block-header,
+.--animate .speed__block-header,
+.--animate .testimonials__block-header,
+.--animate .testimonials__item,
+.--animate .events__header,
+.--animate .companies__title{
+   opacity: 1;
+   transform: translate(0px, 0);
+   transition: all 0.5s;
+}
+
+
+.hero__image,
+.discover__image,
+.powerful__image,
+.customers__image,
+.speed__image,
+.testimonials__media {
+   opacity: 0.7;
+   transform: scale(0.9);
+   transition: all 0.1s;
+}
+.--animate .hero__image,
+.--animate .discover__image,
+.--animate .powerful__image,
+.--animate .customers__image,
+.--animate .speed__image,
+.--animate .testimonials__media{
+   opacity: 1;
+   transform: scale(1);
+   transition: all 0.5s;
+}
+
+
+.events__item,
+.companies__item {
+   opacity: 0;
+   transform: scale(0.8);
+   transition: all 0.1s;
+}
+
+.--animate .events__item,
+.--animate .companies__item {
+   opacity: 1;
+   transform: scale(1);
+   transition: all 0.5s;
+}
+
+
+.--animate .events__item:nth-child(1),
+.--animate .companies__item:nth-child(1) {
+   transition-delay: 0.1s;
+}
+.--animate .events__item:nth-child(2),
+.--animate .companies__item:nth-child(2) {
+   transition-delay: 0.2s;
+}
+.--animate .events__item:nth-child(3),
+.--animate .companies__item:nth-child(3) {
+   transition-delay: 0.3s;
+}
+.--animate .companies__item:nth-child(4) {
+   transition-delay: 0.4s;
+}
+.--animate .companies__item:nth-child(5) {
+   transition-delay: 0.5s;
+}
+
